@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.semaforo{
+    background-color: black;
+    border: 1px black;
+    border-radius: 15px;
+    position: absolute;
+    right: 45%;
+    top: 35%;
+}
+body{
+    background-color: rgba(127, 255, 212, 0.425);
+}

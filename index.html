@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 5: Funciones</title>
+</head>
+<body>
+    <div class="semaforo">
+        <img src=https://coronavirus.gob.mx/wp-content/uploads/2020/07/Susana_Semaforo_Rojo.png alt="amarillo" id="luz">
+    </div>
+    
+
+<script>
+
+function semaforo1(){
+    document.getElementById("luz").setAttribute("src", "https://coronavirus.gob.mx/wp-content/uploads/2020/07/Susana_Semaforo_Verde.png"); 
+}
+let rojo = "https://coronavirus.gob.mx/wp-content/uploads/2020/07/Susana_Semaforo_Rojo.png"
+let tiempo = setTimeout(semaforo1,5000)
+
+function semaforo2(){
+    document.getElementById("luz").setAttribute("src", "https://coronavirus.gob.mx/wp-content/uploads/2020/07/Susana_Semaforo_Amarillo.png"); 
+}
+let tiempo2 = setTimeout(semaforo2,10000)
+
+function semaforo3(){
+    document.getElementById("luz").setAttribute("src", "https://coronavirus.gob.mx/wp-content/uploads/2020/07/Susana_Semaforo_Rojo.png"); 
+}
+let tiempo3 = setTimeout(semaforo3,15000)
+
+</script>
+</body>
+</html>
